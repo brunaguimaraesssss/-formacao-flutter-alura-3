@@ -36,7 +36,7 @@ class Header extends StatelessWidget {
                     ],
                   ),
                 ),
-                Text(
+                const Text(
                   'Balanço disponível',
                 ),
               ],

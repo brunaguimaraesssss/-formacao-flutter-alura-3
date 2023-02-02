@@ -1,8 +1,7 @@
-import 'dart:ui';
-
 import 'package:alubank/themes/themes_colors.dart';
 import 'package:flutter/material.dart';
 
+// ignore: non_constant_identifier_names
 ThemeData MyTheme = ThemeData(
   primarySwatch: ThemeColors.primaryColor,
   primaryColor: ThemeColors.primaryColor,

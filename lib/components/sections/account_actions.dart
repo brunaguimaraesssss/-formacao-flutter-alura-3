@@ -1,5 +1,4 @@
 import 'package:alubank/components/box_card.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AccountActions extends StatelessWidget {
@@ -24,20 +23,20 @@ class AccountActions extends StatelessWidget {
             children: [
               InkWell(
                 onTap: () {},
-                child: BoxCard(
+                child: const BoxCard(
                     boxContent: _AccountActionsContent(
                         icon: Icon(Icons.cached), text: 'Depositar')),
               ),
               InkWell(
                 onTap: () {},
-                child: BoxCard(
+                child: const BoxCard(
                     boxContent: _AccountActionsContent(
                         icon: Icon(Icons.center_focus_strong),
                         text: 'Transferir')),
               ),
               InkWell(
                 onTap: () {},
-                child: BoxCard(
+                child: const BoxCard(
                     boxContent: _AccountActionsContent(
                         icon: Icon(Icons.account_balance_wallet), text: 'Ler')),
               ),
